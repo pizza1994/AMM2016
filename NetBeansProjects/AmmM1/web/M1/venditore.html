@@ -16,25 +16,36 @@ and open the template in the editor.
     <body>
         <nav>
             <h3>Navigazione</h3>
-            <a href="descrizione.html">descrizione</a><br>
-            <a href="login.html">login</a><br>
+            <a href="descrizione.html">descrizione</a>
+            <a href="login.html">login</a>
             
         </nav>
         <div class="inserisciArticoloForm">
-            <br>
             <h3>Inserisci Articolo</h3>
             <form method="post">
-                <label for="name">Nome Articolo</label>
-                <input type="text" name="name" id="name"/><br>
-                <label for="address">Immagine</label>
-                <input type="url" name="address" id="address"/><br>
-                <label for="description">Descrizione</label>
-                <input type="text" name="description" id="description"/><br>
-                <label for="price">Prezzo</label>
-                <input type="number" name="price" id="price"/><br>
-                <label for="quantity">Quantità</label>
-                <input type="number" name="quantity" id="quantity"/><br>
-                <input type="submit" value="salva" />
+                <div class="articoloDiv">
+                    <label for="name">Nome Articolo</label>
+                    <input type="text" name="name" id="name"/>
+                </div>
+                <div class="immagineDiv">
+                    <label for="address">Immagine</label>
+                    <input type="url" name="address" id="address"/>
+                </div>
+                <div class="descrizioneDiv">
+                    <label for="description">Descrizione</label>
+                    <input type="text" name="description" id="description"/>
+                </div>
+                <div class="prezzoDiv">
+                    <label for="price">Prezzo</label>
+                    <input type="number" name="price" id="price"/>
+                </div>
+                <div class="quantitaDiv">
+                    <label for="quantity">Quantità</label>
+                    <input type="number" name="quantity" id="quantity"/>
+                </div>
+                <div class="salvaDiv">
+                    <input type="submit" value="salva" />
+                </div>
             </form>
         </div>
         
